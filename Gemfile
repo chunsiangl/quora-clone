@@ -37,8 +37,3 @@ group :production do
 	gem 'puma' # Using puma for
 end
 
-resources :users do
-  resources :questions do
-    resources :answers
-  end
-end
